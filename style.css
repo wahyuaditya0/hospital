@@ -1,0 +1,263 @@
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+.judul {
+  margin: 40px;
+  font-family: "Saira", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.judul-artikel {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 30px;
+}
+
+.isi-artikel {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+.display-4 {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.jumbotron {
+  background-image: url("img/rsud_padang_panjang.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+/* .kontak {
+  color: grey;
+  height: 50px;
+  width: 50px;
+} */
+
+.component-categories {
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 3px 3px 4px grey;
+}
+
+.component-categories:hover {
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+.categories-text {
+  font-size: 18px;
+  text-align: center;
+  color: #0c0d36;
+  font-weight: normal;
+  margin-top: 12px;
+}
+
+.tulisan-footer {
+  font-family: "Saira", sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.kaki {
+  background-color: #163a48;
+  height: 1270px;
+  width: 100% + 10%;
+}
+
+.btn-default {
+  font-family: "Saira", sans-serif;
+}
+
+.btn-default:hover {
+  background-color: salmon;
+}
+
+.judul-artikel {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.row-darurat {
+  background-color: #60d2a6;
+  height: 350px;
+  width: 100% +10%;
+}
+
+.darurat-rs {
+  font-family: "Saira", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.darurat-rs-p {
+  font-family: "Saira", sans-serif;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+.judul-artikel-p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cop {
+  padding-top: 10px;
+}
+
+.bawah-copyright {
+  background-color: #11323f;
+  height: 50px;
+  width: 100% + 10%;
+  color: grey;
+}
+
+.isi-artikel {
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(155, 151, 151);
+}
+
+.kirikanan {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title-box {
+  background-color: #2a5e5f;
+  background-image: url("img/background.png");
+  height: 250px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.title-font {
+  font-family: "Saira", sans-serif;
+  color: white;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.img-pp {
+  font-family: "Long Cang", cursive;
+}
+
+@media (min-width: 768px) {
+  .kontak {
+    background-color: #163a48;
+  }
+
+  .jalan {
+    display: inline;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .nav-item {
+    margin-right: 20px;
+    text-transform: uppercase;
+  }
+
+  .kaki {
+    background-color: #163a48;
+    height: 450px;
+    width: 100% + 10%;
+  }
+
+  .bawah {
+    margin-top: 30px;
+  }
+
+  .bawah-copyright {
+    background-color: #11323f;
+    height: 50px;
+    width: 100% + 10%;
+    color: grey;
+  }
+  .carousel-item {
+    height: 500px;
+  }
+
+  .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+  }
+  .judul-artikel-p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+
+  .cop {
+    padding-top: 10px;
+  }
+
+  .row-darurat {
+    background-color: #60d2a6;
+    height: 150px;
+    width: 100% +10%;
+  }
+
+  .darurat-rs {
+    font-family: "Saira", sans-serif;
+    font-size: 30px;
+    color: white;
+  }
+
+  .darurat-rs-p {
+    font-family: "Saira", sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+
+  .btn-default {
+    font-family: "Saira", sans-serif;
+  }
+
+  .btn-default:hover {
+    background-color: salmon;
+  }
+
+  .display-4 {
+    font-family: "Dancing Script", cursive;
+    color: white;
+  }
+
+  .judul {
+    margin: 40px;
+    font-family: "Saira", sans-serif;
+    font-size: 40px;
+  }
+
+  .isi-artikel {
+    font-family: "Ubuntu", sans-serif;
+    color: rgb(155, 151, 151);
+  }
+}
